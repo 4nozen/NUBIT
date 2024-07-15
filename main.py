@@ -23,7 +23,7 @@ def start_node():
         if f.read().strip() == 'false':
             # os.system('nohup bash <nubit.sh > $HOME/nubit-light.log 2>&1 &')
             is_running('true')
-            print("NODE STARTED RUNNING... wait a few minutes")
+            print("NODE STARTED RUNNING... the first start it takes time")
             output = subprocess.check_output('nohup bash <nubit.sh > $HOME/nubit-light.log 2>&1 &', shell=True).decode("utf-8").splitlines()
             print(output)            
             # time.sleep(5)

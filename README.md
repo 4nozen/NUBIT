@@ -1,5 +1,7 @@
-__coding by: @bumpmeup (discord, telegram)__
-__tested by: @alexrok (discord)__
+## NUBIT node
+
+_coding by: @bumpmeup (discord, telegram)_
+_tested by: @alexrok (discord)_
 
 ![image](https://github.com/user-attachments/assets/0bd8f3c6-9297-44ec-a19b-1d1699a8edfe)
 

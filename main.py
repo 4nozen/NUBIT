@@ -1,4 +1,5 @@
 import os
+import subprocess
 import time
 
 file = 'running'
@@ -20,10 +21,12 @@ def start_node():
     os.system('clear')
     with open(path, 'r') as f:
         if f.read().strip() == 'false':
-            os.system('nohup bash <nubit.sh > $HOME/nubit-light.log 2>&1 &')
+            # os.system('nohup bash <nubit.sh > $HOME/nubit-light.log 2>&1 &')
             is_running('true')
             print("NODE STARTED RUNNING... wait a few minutes")
-            time.sleep(5)
+            output = subprocess.check_output('nohup bash <nubit.sh > $HOME/nubit-light.log 2>&1 &', shell=True).decode("utf-8").splitlines()
+            print(output)            
+            # time.sleep(5)
         else:
             print("Already running")
     print("###########################")

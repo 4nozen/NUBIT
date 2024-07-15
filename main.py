@@ -105,6 +105,7 @@ def main():
     print("-")
     print("7. !!!Stop NUBIT node!!!")
     print("8. !!!Delete mnemonic.txt!!!")
+    print("-")
     print("0. Exit")
     
     choice = int(input("Enter your choice: "))

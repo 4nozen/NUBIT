@@ -22,7 +22,7 @@ def start_node():
         if f.read().strip() == 'false':
             os.system('nohup bash <nubit.sh > $HOME/nubit-light.log 2>&1 &')
             is_running('true')
-            print("NODE STARTED RUNNING...")
+            print("NODE STARTED RUNNING... wait a few minutes")
             time.sleep(5)
         else:
             print("Already running")

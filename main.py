@@ -83,11 +83,11 @@ def delete_mnemonic():
     print("2. No")
     answ = input("Enter your choice: ")    
     if answ == "1":
-        # os.system('clear')
+        os.system('clear')
         os.system('rm $HOME/nubit-node/mnemonic.txt')
         main()
     elif answ == "2":
-        # os.system('clear')
+        os.system('clear')
         main()
     else:
         print("Invalid choice. Please try again.")

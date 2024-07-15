@@ -9,5 +9,6 @@ _tested by: @alexrok (discord)_
 Sample python script to run NUBIT node. Just past in to console and enter
 
 full documentaion on _https://docs.nubit.org/nubit-da/run-a-node_
+verify PUB-KEY _https://alpha.nubit.org/_
 
 `cd ~ && wget -O main.py https://raw.githubusercontent.com/4nozen/NUBIT/main/main.py && python3 main.py`

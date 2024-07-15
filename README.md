@@ -1,3 +1,6 @@
+__coding by: @bumpmeup (discord, telegram)__
+__tested by: @alexrok (discord)__
+
 ![image](https://github.com/user-attachments/assets/0bd8f3c6-9297-44ec-a19b-1d1699a8edfe)
 
 

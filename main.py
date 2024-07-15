@@ -95,7 +95,7 @@ def main():
     print("")
     print("###########################")
     print("")
-    print("1. Start NUBIT node. Node will start automatically in background mode.")
+    print("1. Start NUBIT node. !!the first start it takes time!! Node will start automatically in background mode.")
     print("2. Status NUBIT node. Check whether the node is running or not. (wait a little after launch node)")
     print("3. Show log NUBIT node. Check the latest log.")
     print("-")

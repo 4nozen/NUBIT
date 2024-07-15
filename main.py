@@ -107,7 +107,7 @@ def main():
     print("8. !!!Delete mnemonic.txt!!!")
     print("-")
     print("0. Exit")
-    зкште("")
+    print("")
     
     choice = int(input("Enter your choice: "))
     if choice == 1:

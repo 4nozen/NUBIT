@@ -59,7 +59,7 @@ class Console:
             index = 0
             out_ = ''
             os.system('nohup bash <nubit.sh > $HOME/nubit-light.log 2>&1 &')
-            print("NODE RUNNING... the first start it takes time")
+            print(f"NODE RUNNING... {Color.FADED}the first start it takes time{Color.ENDC}")
             while out_ == '':
                 char = chars[index % len(chars)]
                 print(f"in progress: [{char}] ", end='\r')
@@ -168,7 +168,7 @@ def menu():
 
 if __name__ == '__main__':
     os.system('clear')
-    os.system('echo "coping https://nubit.sh"')
+    os.system(f'echo "{Color.FADED}copying from https://nubit.sh{Color.ENDC}"')
     os.system('echo ""')
     os.system('curl https://nubit.sh > nubit.sh')
     os.system('clear')

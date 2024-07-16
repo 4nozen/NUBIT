@@ -3,7 +3,7 @@
 _coding by: @bumpmeup (discord, telegram)_<br>
 _tested by: @alexrok (discord)_
 
-![image](https://github.com/user-attachments/assets/0bd8f3c6-9297-44ec-a19b-1d1699a8edfe)
+![image](https://github.com/user-attachments/assets/79fb72b0-de3b-4c07-b129-d5bffe23e05d)
 
 
 Sample python script to run NUBIT node.<br>
@@ -20,7 +20,6 @@ verify PUB-KEY _https://alpha.nubit.org/_
 
 -------
 planned:<br>
-* new version on object-oriented programming<br>
 * node wallet balance<br>
 * auto validation of pubkey<br>
 * realtime log<br>

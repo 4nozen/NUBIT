@@ -69,6 +69,7 @@ class Console:
             print(f"{Color.BOLD}{Color.OKGREEN}NODE STARTED{Color.ENDC}")
         else:
             print(f"{Color.BOLD}{Color.OKGREEN}Already running{Color.ENDC}")
+        self.run_flag = True
         menu()
 
     def node_running(self):

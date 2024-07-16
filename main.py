@@ -19,11 +19,13 @@ class Color:
 
 class Text:
     welcome = Color.HEADER + """
-            #############################################
-            #                                           #
-            #          Welcome NUBIT node manager       #
-            #                                           #
-            #############################################
+            ####################################################
+            #                                                  #
+            #             Welcome NUBIT node manager           #
+            #              For full documentaion on            #
+            #    https://docs.nubit.org/nubit-da/run-a-node    #
+            #                                                  #
+            ####################################################
                 """ + Color.ENDC
     menu = f"""
         1. {Color.OKBLUE}{Color.BOLD}Start NUBIT NODE.{Color.ENDC}

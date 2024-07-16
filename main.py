@@ -32,7 +32,7 @@ class Text:
            {Color.ITALICS} check whether the node is running or not.{Color.ENDC}
         3. {Color.OKBLUE}{Color.BOLD}Show NUBIT node logs.{Color.ENDC}
            {Color.ITALICS} check the latest log.{Color.ENDC}
-        ---------------------------------------------------------------
+        ---------------------------------------------------------------------------
         4. {Color.OKBLUE}{Color.BOLD}For further check.{Color.ENDC}
            {Color.ITALICS} make sure your light node is running!{Color.ENDC}
         5. {Color.OKBLUE}{Color.BOLD}Show Nubit node ADDRESS and PUBKEY.{Color.ENDC}

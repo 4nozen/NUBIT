@@ -24,6 +24,7 @@ class Text:
             #             Welcome NUBIT node manager           #
             #              For full documentaion on            #
             #    https://docs.nubit.org/nubit-da/run-a-node    #
+            #          discord https://discord.gg/nubit        #
             #                                                  #
             ####################################################
                 """ + Color.ENDC

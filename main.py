@@ -139,6 +139,7 @@ class Console:
         if self.run_flag:
             os.system('kill $(lsof -t -i:2121)')
             print(f"node is {Color.BOLD}{Color.FAIL}NODE STOPED{Color.ENDC}")
+            self.run_flag = False
             menu()
         else:
             print(f"node is not {Color.BOLD}{Color.FAIL}NOT RUNNING{Color.ENDC}")

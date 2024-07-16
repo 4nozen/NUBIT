@@ -20,6 +20,7 @@ verify PUB-KEY _https://alpha.nubit.org/_
 
 -------
 planned:<br>
-  node wallet balance<br>
-  auto validation of pubkey<br>
-  realtime log<br>
+* new version on object-oriented programming<br>
+* node wallet balance<br>
+* auto validation of pubkey<br>
+* realtime log<br>

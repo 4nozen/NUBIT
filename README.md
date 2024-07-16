@@ -1,4 +1,4 @@
-## NUBIT node
+## NUBIT node script for ubuntu
 
 _coding by: @bumpmeup (discord, telegram)_<br>
 _tested by: @alexrok (discord)_
@@ -6,9 +6,10 @@ _tested by: @alexrok (discord)_
 ![image](https://github.com/user-attachments/assets/79fb72b0-de3b-4c07-b129-d5bffe23e05d)
 
 
-Sample python script to run NUBIT node.<br>
-Just past in to console and enter.<br>
-No environment python required at this stage.<br>
+Sample python script to run NUBIT node<br>
+No environment python required<br>
+No third party libraries<br>
+Just past in to console and enter<br>
 
 full documentaion on _https://docs.nubit.org/nubit-da/run-a-node_<br>
 verify PUB-KEY _https://alpha.nubit.org/_

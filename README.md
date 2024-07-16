@@ -12,3 +12,12 @@ full documentaion on _https://docs.nubit.org/nubit-da/run-a-node_<br>
 verify PUB-KEY _https://alpha.nubit.org/_
 
 `cd ~ && wget -O main.py https://raw.githubusercontent.com/4nozen/NUBIT/main/main.py && python3 main.py`
+
+
+
+
+-------
+planned:
+node wallet balance
+auto validation of pubkey
+realtime log

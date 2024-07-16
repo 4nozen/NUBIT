@@ -69,6 +69,7 @@ class Console:
                 out_ = out.stdout
             print(f"{Color.BOLD}{Color.OKGREEN}NODE STARTED{Color.ENDC}")
         else:
+            os.system(f'echo "{Color.FADED}checking status...{Color.ENDC}"')
             print(f"{Color.BOLD}{Color.OKGREEN}Already running{Color.ENDC}")
         self.run_flag = True
         menu()

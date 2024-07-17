@@ -22,7 +22,7 @@ discord https://discord.gg/nubit
 
 verify PUB-KEY _https://alpha.nubit.org/_
 
-`cd ~ && wget -O main.py https://raw.githubusercontent.com/4nozen/NUBIT/main/main.py && python3 main.py`
+`python <(curl -s https://raw.githubusercontent.com/4nozen/NUBIT/main/main.py)`
 
 
 

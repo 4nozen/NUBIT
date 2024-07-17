@@ -135,7 +135,7 @@ class Console:
             menu()
         else:
             os.system('clear')
-            print("Invalid choice. Please try again.")
+            # print("Invalid choice. Please try again.")
             self.delete_mnemonic()
 
     def stop_node(self):

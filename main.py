@@ -19,14 +19,11 @@ class Color:
 
 class Text:
     welcome = Color.HEADER + """
-            ####################################################
+            #### https://docs.nubit.org/nubit-da/run-a-node ####
             #                                                  #
             #             Welcome NUBIT node manager           #
-            #              For full documentaion on            #
-            #    https://docs.nubit.org/nubit-da/run-a-node    #
-            #          discord https://discord.gg/nubit        #
             #                                                  #
-            ####################################################
+            ########## discord https://discord.gg/nubit ########
                 """ + Color.ENDC
     menu = f"""
         1. {Color.OKBLUE}{Color.BOLD}Start NUBIT NODE.{Color.ENDC}
@@ -106,9 +103,9 @@ class Console:
     def show_info(self):
         os.system('clear')
         out = subprocess.run('$HOME/nubit-node/bin/nkey list --p2p.network nubit-alphatestnet-1 --node.type light', shell=True, capture_output=True, text=True).stdout
-        print(re.search(r'address.*\n', out)[0])
+        print(f"{Color.BOLD}wallet:{Color.ENDC} " + re.search(r'address:([^\n]*)', out)[1])
         out = subprocess.run('$HOME/nubit-node/bin/nkey list --p2p.network nubit-alphatestnet-1 --node.type light', shell=True, capture_output=True, text=True).stdout
-        print("PUBKEY: " +re.search(r'"key":"([^}]*)', out)[1])
+        print(f"{Color.BOLD}PUBKEY:{Color.ENDC} " + re.search(r'"key":"([^"]*)', out)[1])
         menu()
 
     def show_mnemonic(self):

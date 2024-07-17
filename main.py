@@ -47,7 +47,7 @@ class Text:
 
 class Console:
     def __init__(self):
-        self.log_lines = '2'
+        self.log_lines = '10'
         self.run_flag: bool = None
 
     def start_node(self):
@@ -88,7 +88,14 @@ class Console:
     def show_log(self):
         os.system('clear')
         print(subprocess.run(f"tail -n {self.log_lines} $HOME/nubit-light.log", shell=True, capture_output=True, text=True).stdout)
-        menu()
+        answ = input("Enter 1 back to menu: ")
+        if answ == "1":
+            os.system('clear')
+            menu()
+        else:
+            os.system('clear')
+            self.show_log()
+            print("Invalid choice. Please try again.")
 
     def further_check(self):
         os.system('clear')

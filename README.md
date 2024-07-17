@@ -26,13 +26,4 @@ verify PUB-KEY _https://alpha.nubit.org/_
 
 
 
-
--------
-planned:
-<br>
-* node wallet balance
-* <br>
-* auto validation of pubkey
-* <br>
-* realtime log
-* <br>
+-----------

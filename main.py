@@ -1,3 +1,6 @@
+# coding by: @bumpmeup (discord, telegram)
+# tested by: @alexrok (discord)
+
 import os
 import re
 import subprocess

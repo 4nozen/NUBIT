@@ -27,16 +27,16 @@ class Text:
                 """ + Color.ENDC
     menu = f"""
         1. {Color.OKBLUE}{Color.BOLD}Start NUBIT NODE.{Color.ENDC}
-           {Color.ITALICS} node will start automatically in background mode.{Color.ENDC}
+           {Color.ITALICS}{Color.FADED} node will start automatically in background mode.{Color.ENDC}
         2. {Color.OKBLUE}{Color.BOLD}Status NUBIT NODE.{Color.ENDC}
-           {Color.ITALICS} check whether the node is running or not.{Color.ENDC}
+           {Color.ITALICS}{Color.FADED} check whether the node is running or not.{Color.ENDC}
         3. {Color.OKBLUE}{Color.BOLD}Show NUBIT node logs.{Color.ENDC}
-           {Color.ITALICS} check the latest log.{Color.ENDC}
+           {Color.ITALICS}{Color.FADED} check the latest log.{Color.ENDC}
         ---------------------------------------------------------------------------
         4. {Color.OKBLUE}{Color.BOLD}For further check.{Color.ENDC}
-           {Color.ITALICS} make sure your light node is running!{Color.ENDC}
+           {Color.ITALICS}{Color.FADED} make sure your light node is running!{Color.ENDC}
         5. {Color.OKBLUE}{Color.BOLD}Show Nubit node PUBKEY.{Color.ENDC}
-           {Color.ITALICS} make sure your light node is running!{Color.ENDC}
+           {Color.ITALICS}{Color.FADED} make sure your light node is running!{Color.ENDC}
         6. {Color.OKBLUE}{Color.BOLD}Show mnemonic words.{Color.ENDC}
         ---------------------------------------------------------------------------
         7. {Color.WARNING}!!! Stop NUBIT node !!!{Color.ENDC}
@@ -95,7 +95,7 @@ class Console:
         else:
             os.system('clear')
             self.show_log()
-            print("Invalid choice. Please try again.")
+            # print("Invalid choice. Please try again.")
 
     def further_check(self):
         os.system('clear')

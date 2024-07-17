@@ -28,4 +28,5 @@ https://bumpmeup.gitbook.io/nubit-node-en
 
 
 -----------
-(https://bumpmeup.gitbook.io/nubit-node-en#:~:text=Powered%20by%20GitBook-,Easy%20Startup%20and%20Management%20of%20LightNode,coding%20by%3A%20%40bumpmeup%20(discord%2C%20telegram)%0Atested%20by%3A%20%40alexrok%20(discord),-Last%20updated%201)
+coding by: @bumpmeup (discord, telegram)
+tested by: @alexrok (discord)

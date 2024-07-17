@@ -88,7 +88,7 @@ class Console:
     def show_log(self):
         os.system('clear')
         print(subprocess.run(f"tail -n {self.log_lines} $HOME/nubit-light.log", shell=True, capture_output=True, text=True).stdout)
-        answ = input("Enter 1 back to menu: ")
+        answ = input("Enter 1 back to menu or anykey to refresh: ")
         if answ == "1":
             os.system('clear')
             menu()

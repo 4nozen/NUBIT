@@ -108,7 +108,7 @@ class Console:
         out = subprocess.run('$HOME/nubit-node/bin/nkey list --p2p.network nubit-alphatestnet-1 --node.type light', shell=True, capture_output=True, text=True).stdout
         print(re.search(r'address.*\n', out)[0])
         out = subprocess.run('$HOME/nubit-node/bin/nkey list --p2p.network nubit-alphatestnet-1 --node.type light', shell=True, capture_output=True, text=True).stdout
-        print(re.search(r'"key":"([^}]*)', out)[0])
+        print("PUBKEY: " +re.search(r'"key":"([^}]*)', out)[1])
         menu()
 
     def show_mnemonic(self):

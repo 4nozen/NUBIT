@@ -152,6 +152,7 @@ class Console:
 
 def exit_manager():
     os.system('exit')
+    os.system('clear')
 
 
 def menu():

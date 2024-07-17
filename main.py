@@ -35,7 +35,7 @@ class Text:
         ---------------------------------------------------------------------------
         4. {Color.OKBLUE}{Color.BOLD}For further check.{Color.ENDC}
            {Color.ITALICS} make sure your light node is running!{Color.ENDC}
-        5. {Color.OKBLUE}{Color.BOLD}Show Nubit node ADDRESS and PUBKEY.{Color.ENDC}
+        5. {Color.OKBLUE}{Color.BOLD}Show Nubit node PUBKEY.{Color.ENDC}
            {Color.ITALICS} make sure your light node is running!{Color.ENDC}
         6. {Color.OKBLUE}{Color.BOLD}Show mnemonic words.{Color.ENDC}
         ---------------------------------------------------------------------------

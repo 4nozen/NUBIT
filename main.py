@@ -109,8 +109,8 @@ class Console:
     
     def show_info(self):
         os.system('clear')
-        out = subprocess.run('$HOME/nubit-node/bin/nkey list --p2p.network nubit-alphatestnet-1 --node.type light', shell=True, capture_output=True, text=True).stdout
-        print(f"{Color.BOLD}wallet:{Color.ENDC} " + re.search(r'address:([^\n]*)', out)[1])
+        # out = subprocess.run('$HOME/nubit-node/bin/nkey list --p2p.network nubit-alphatestnet-1 --node.type light', shell=True, capture_output=True, text=True).stdout
+        # print(f"{Color.BOLD}wallet:{Color.ENDC} " + re.search(r'address:([^\n]*)', out)[1])
         out = subprocess.run('$HOME/nubit-node/bin/nkey list --p2p.network nubit-alphatestnet-1 --node.type light', shell=True, capture_output=True, text=True).stdout
         print(f"{Color.BOLD}PUBKEY:{Color.ENDC} " + re.search(r'"key":"([^"]*)', out)[1])
         menu()
